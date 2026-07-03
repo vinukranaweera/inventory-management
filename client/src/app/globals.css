@@ -1,0 +1,47 @@
+@import "tailwindcss";
+/* @config "../../tailwind.config.ts"; */
+
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  
+  --color-gray-50: #f9fafb;
+  --color-gray-900: #111827;
+  --color-hover: #dbeafe;
+}
+
+.dark {
+  --color-white: #090d16;
+  --color-black: #f9fafb;
+  
+  --color-gray-50: #111827;
+  --color-gray-900: #f9fafb;
+  --color-hover: #1e3a5f;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-size: 0.875rem;
+}
+
+ @media (min-width: 768px) {
+  .custom-grid-rows {
+    grid-template-rows: repeat(8, minmax(120px, 20vh));
+  }
+}
+
+@media (min-width: 1280px) {
+  .custom-grid-rows {
+    grid-template-rows: repeat(8, minmax(65px, 7.5vh));
+  }
+}
