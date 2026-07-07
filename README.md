@@ -2,6 +2,10 @@
 
 A full-stack inventory management application built with Next.js, Node.js, Prisma, Redux Toolkit, and AWS. The web app provides an intuitive interface for managing products, inventory, users, and expenses while leveraging a scalable cloud infrastructure for deployment and storage.
 
+## Live Demo
+
+View the fully deployed app in your browser here: 👉 **[Inventory Dashboard Demo](https://main.d2ej0cbxl4rvo1.amplifyapp.com/)** (_Note: loading may take a few seconds_)
+
 ## Features
 
 * Interactive dashboard with business insights
@@ -136,3 +140,5 @@ npm run dev
 cd ../client
 npm run dev
 ```
+
+The application can then be viewed using the web browser on **http://localhost:3000**.
